@@ -10,10 +10,5 @@
   "license": "MIT",
   "publishConfig": {
     "registry": "https://registry.npmjs.org"
-  },
-  "dependencies": {
-    "uniforms": "^3.0.0-rc.3",
-    "uniforms-antd": "^3.0.0-rc.3",
-    "uniforms-bridge-simple-schema": "^3.0.0-rc.3"
   }
 }

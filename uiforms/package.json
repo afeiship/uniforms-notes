@@ -3,14 +3,18 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@ant-design/icons": "^4.2.2",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
+    "antd": "^4.6.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.3",
     "uniforms": "^3.0.0-rc.3",
+    "uniforms-antd": "^3.0.0-rc.3",
     "uniforms-bridge-json-schema": "^3.0.0-rc.3",
+    "uniforms-bridge-simple-schema": "^3.0.0-rc.3",
     "uniforms-semantic": "^3.0.0-rc.3"
   },
   "scripts": {

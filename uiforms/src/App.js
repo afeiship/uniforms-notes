@@ -1,15 +1,18 @@
+import 'antd/dist/antd.css';
 import React from 'react';
-import { AutoForm } from 'uniforms-semantic';
+import { AutoForm } from 'uniforms-antd';
 import { bridge as schema } from './GuestSchema';
 
-
-export function GuestFormBasic() {
-  return <AutoForm schema={schema} onSubmit={console.log} />;
-}
 function App() {
   return (
     <div className="App">
-      <GuestFormBasic />
+      <AutoForm
+        showInlineError
+        schema={schema}
+        onSubmit={(model) => {
+          console.log('model::', model);
+        }}
+      />
     </div>
   );
 }
